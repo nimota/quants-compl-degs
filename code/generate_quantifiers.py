@@ -10,7 +10,6 @@ from time import perf_counter
 from bitarray import bitarray
 from nltk import CFG
 from nltk.parse.generate import generate as nltk_generate
-from utils import LimitedSet
 
 
 class QuantifierGenerator:
